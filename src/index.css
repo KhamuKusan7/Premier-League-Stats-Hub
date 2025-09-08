@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smooothing: grayscale;
+  display: flex;
+  /* background-color: #380F4C; */
+  /* background-image: url('PL_logo2.png'); */
+  /* background-size: contain; */
+  width:100%;
+  height: 100vh;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* position: relative; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+/* body::before {
+  content: "";
+  position: absolute;
+  width:100%;
+  height: 100vh;  
+  background-image: url('teams.png');
+  opacity: 0.2;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index:-1;
+} */
+
+:root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100%;
+  /* max-width: 800px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #333;
+  box-shadow: 0px 0px 15px gray;
+}
+
+/* Navbar */
+.NavBar{
+  width: 100%;
+  max-width: 100vw;
+  background-color: #51166e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavBar ul{
+  color: #fff;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.NavBar li{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+.NavBar li:hover,
+.NavBar li:focus {
+  padding: 1rem;
+}
+.NavBar li a {
+  color: #fff;
+  text-decoration: none;
+}
+.NavBar li:hover,
+.NavBar li:focus,
+.NavBar li:hover a,
+.NavBar li:focus a {
+  /* background-color: #eee; */
+  color:#ffd700;
+  transition: 0.5s ease-in-out;
+}
+.NavBar li:hover a,
+.NavBar li:focus a {
+  cursor:pointer;
+}
+
+.Home,.PlayerStats,.Fixtures,.Clubs,.Hall_of_Fame{
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #380F4C;
+  background-image: url('PL_logo2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+/* .Home{
+  background-color: #380F4C;
+  background-image: url('PL_logo2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+} */
+
+/* For playerStats section */
+/* .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.player ul{
+  display: flex;
+  list-style-type:none;
+} */
+
+.PlayerStats { 
+  padding: 16px; 
+}
+
+.hide-scrollbar-container::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+.PlayerStats-heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-grid {
+  list-style: none;
+  padding: 0;
+  margin: 16px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 1100px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* Hide scrollbar */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.player-grid::-webkit-scrollbar {
+  display: none;
+}
+
+/* Card */
+.player-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;         /* keeps a nice poster shape */
+  /* thapeko */
+  /* display: flex;
+  align-items: flex-end;
+  justify-content: center; */
+}
+
+/* Background goes here via CSS var */
+.player-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;                   /* sits behind the player */
+}
+.player-card:hover {
+  /* transform: scale(1.08); */
+  box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+  transition: transform  0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Clickable area */
+.card-link {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  z-index: 2;
+}
+
+/* Player image */
+.player-img {
+  position: absolute;
+  /* bottom: 0; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* height: 85%;                  adjust to taste */
+  /* display: block; */
+  /* margin:0 auto; */
+  /* object-fit: contain; */
+  /* pointer-events: none; */
+  /* transform-origin: center center; <--- important */
+  /* transition: transform 0.3s ease, filter 0.3s ease; */
+
+  height: 85%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  transform-origin: bottom center; /* 🔑 grow upward from feet */
+
+}
+
+.player-card:hover .player-img {
+  transform: scale(1.12);
+  /* flex-grow: 1; */
+  filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));
+}
+
+
+/* Name label */
+.player-name {
+  position: relative;
+  margin: 10px 0;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+  z-index: 3;
+}
+.player-card:hover .player-name {
+  transform: scale(1.12);
+  filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));
+}
+
+
+
+
+/* Footer */
+footer{
+  width:100%;
+  max-width: 100vw;
+  /* background-color: #ffd700; */
+  background-color: #380F4C;
+  padding: 0.75rem;
+  display: flex;
+  /* place-content: center; */
+  justify-content: center;
+  align-items: flex-end;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color:#fff;
+}
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: nowrap;
+}
+footer li{
+  padding: 1rem;
+}
+footer li:hover {
+  cursor: pointer;
+}
