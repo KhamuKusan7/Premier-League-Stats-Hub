@@ -3,7 +3,7 @@ import Fixtures from './MyComponents/Fixtures';
 import Clubs from './MyComponents/Clubs';
 import PlayerStats from './MyComponents/PlayerStats';
 import Hall_of_Fame from './MyComponents/Hall_of_Fame';
-import Liverpool from './MyComponents/Liverpool';
+import Liverpool from './MyComponents/Clubs/Liverpool';
 import Salah from './Players/Salah';
 import Haaland from './Players/Haaland';
 

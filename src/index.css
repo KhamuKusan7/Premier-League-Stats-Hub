@@ -178,10 +178,6 @@ body{
   border-radius: 14px;
   overflow: hidden;
   aspect-ratio: 2 / 3;         /* keeps a nice poster shape */
-  /* thapeko */
-  /* display: flex;
-  align-items: flex-end;
-  justify-content: center; */
 }
 
 /* Background goes here via CSS var */
@@ -217,24 +213,12 @@ body{
 /* Player image */
 .player-img {
   position: absolute;
-  /* bottom: 0; */
-  /* left: 50%; */
-  /* transform: translateX(-50%); */
-  /* height: 85%;                  adjust to taste */
-  /* display: block; */
-  /* margin:0 auto; */
-  /* object-fit: contain; */
-  /* pointer-events: none; */
-  /* transform-origin: center center; <--- important */
-  /* transition: transform 0.3s ease, filter 0.3s ease; */
-
   height: 85%;
   object-fit: contain;
   display: block;
   margin: 0 auto;
   transition: transform 0.3s ease, filter 0.3s ease;
-  transform-origin: bottom center; /* 🔑 grow upward from feet */
-
+  transform-origin: bottom center; /* grow upward from feet */
 }
 
 .player-card:hover .player-img {
@@ -258,8 +242,70 @@ body{
   filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));
 }
 
+/* Fixtures */
 
 
+
+
+/* Clubs */
+.team-card {
+  width: 300px;
+  height: 330px; 
+  background-image: var(--bg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius:7px;
+  overflow: hidden;
+  aspect-ratio: 1 / 4;
+}
+.team-card-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height:100%;
+  width: 100%;
+  text-decoration: none;
+  color:white;
+  background: rgba(0,0,0,0.3);
+}
+.team-card:hover {
+  /* transform: scale(1.08); */
+  box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+  transition: transform  0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-logo {
+  position: absolute;
+  bottom: 40px;
+  /* left: 50%; */
+  transform: translateZ(-50%);
+  width: 35%;
+  height: auto;
+}
+
+.team-card:hover .team-logo {
+  transform: scale(1.12);
+  flex-grow: 1;
+  filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));
+}
+
+/* .team-name {
+  margin-bottom: 10px;
+  font-weight:bold;
+  font-size:1.2rem;
+} */
+
+.team-grid {
+  list-style-type: none;
+  padding: 0;
+  margin: 16px auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 70px;
+  max-width:1300px;
+}
 
 /* Footer */
 footer{

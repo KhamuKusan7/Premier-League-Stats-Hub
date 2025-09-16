@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export default function PlayerStats() {
   const clubBg = {
+    "Arsenal" : "/images/Club_bg/Arsenal_bg.png",
     "Man City": "/images/Club_bg/ManCity_bg.png",
     "Liverpool": "/images/Club_bg/Liverpool_bg.png",
-    "Arsenal" : "/images/Club_bg/Arsenal_bg.png",
     "Chelsea" : "/images/Club_bg/Chelsea_bg.png",
     "Man United" : "/images/Club_bg/ManUtd_bg.png",
     "Tottenham" : "/images/Club_bg/Spurs_bg.png",
@@ -23,7 +23,6 @@ export default function PlayerStats() {
     "Wolves" : "/images/Club_bg/Wolves_bg.png",
     "Burnley" : "/images/Club_bg/Burnley_bg.png",
     "Leeds" : "/images/Club_bg/Leeds_bg.png"
-    // ...add the rest of the 20 clubs here
   };
 
   const players = [
