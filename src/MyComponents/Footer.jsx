@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='Footer'>
         <ul>
-          <li>Copyright &copy; {today.getFullYear()}</li>
+          <li>&copy; KusanKhambu</li>
           <li>Contact</li>
           <li>Sources</li>
           <li>Github</li>
