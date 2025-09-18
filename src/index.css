@@ -306,6 +306,9 @@ body{
   gap: 70px;
   max-width:1300px;
 }
+.team-grid::-webkit-scrollbar {
+  display: none;
+}
 
 /* Footer */
 footer{
