@@ -49,7 +49,7 @@ const Clubs = () => {
   ];
 
   return (
-    <main className="Clubs">
+    <main className="Clubs hide-scrollbar-container">
       <h2>Clubs</h2>
 
       <ul className="team-grid">
