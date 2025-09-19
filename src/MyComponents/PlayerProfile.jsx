@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function PlayerStats() {
+export default function PlayerProfile() {
   const clubBg = {
     "Arsenal" : "/images/Club_bg/Arsenal_bg.png",
     "Man City": "/images/Club_bg/ManCity_bg.png",
@@ -49,8 +49,8 @@ export default function PlayerStats() {
   ];
 
   return (
-    <main className="PlayerStats hide-scrollbar-container">
-      <h2 className="PlayerStats-heading">Player Stats</h2>
+    <main className="PlayerProfile hide-scrollbar-container">
+      <h2 className="PlayerProfile-heading">Player Stats</h2>
 
       <ul className="player-grid">
         {players.map((p) => (
