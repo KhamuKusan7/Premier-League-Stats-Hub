@@ -101,7 +101,7 @@ body{
   cursor:pointer;
 }
 
-.Home,.PlayerStats,.Fixtures,.Clubs,.Hall_of_Fame{
+.Home,.PlayerProfile,.Fixtures,.Clubs,.Hall_of_Fame{
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
@@ -123,7 +123,7 @@ body{
   position: relative;
 } */
 
-/* For playerStats section */
+/* For PlayerProfile section */
 /* .column {
   float: left;
   width: 33.33%;
@@ -140,14 +140,14 @@ body{
   list-style-type:none;
 } */
 
-.PlayerStats { 
+.PlayerProfile { 
   padding: 16px; 
 }
 
 .hide-scrollbar-container::-webkit-scrollbar {
   display: none; /* Hides the scrollbar */
 }
-.PlayerStats-heading {
+.PlayerProfile-heading {
   color: white;
   display: flex;
   justify-content: center;
