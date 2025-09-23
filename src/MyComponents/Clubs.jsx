@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Clubs = () => {
     const teamBg = {
     "Arsenal" : "/images/Team_bg/arsenalTeambg.png",
@@ -26,7 +27,7 @@ const Clubs = () => {
   };
 
   const teams = [
-    {name: "Arsenal",img:"/images/Clubs/Arsenal.png", club:"Arsenal", link:"Liverpool"},
+    {name: "Arsenal",img:"/images/Clubs/Arsenal.png", club:"Arsenal", link:"/Arsenal"},
     {name: "Aston Villa",img:"/images/Clubs/AstonVilla.png", club:"Aston Villa", link:""},
     {name: "Bournemouth",img:"/images/Clubs/Bournemouth.png", club:"Bournemouth",link:""},
     {name: "Brentford",img:"/images/Clubs/Brentford.png" , club:"Brentford", link:""},
@@ -37,7 +38,7 @@ const Clubs = () => {
     {name: "Everton",img:"/images/Clubs/Everton.png", club:"Everton", link:""},
     {name: "Fulham",img:"/images/Clubs/Fulham.png", club:"Fulham", link:""},
     {name: "Leeds United",img:"/images/Clubs/Leeds.png", club:"Leeds United", link:""},
-    {name: "Liverpool",img:"/images/Clubs/Liverpool.png", club:"Liverpool", link:"Liverpool"},
+    {name: "Liverpool",img:"/images/Clubs/Liverpool.png", club:"Liverpool", link:"/Liverpool"},
     {name: "Manchester United",img:"/images/Clubs/ManUnited.png", club:"Man United", link:""},
     {name: "Manchester City",img:"/images/Clubs/Mancity.png", club:"Man City", link:""},
     {name: "Newcastle United",img:"/images/Clubs/Newcastle.png", club:"Newcastle United", link:""},
@@ -50,7 +51,7 @@ const Clubs = () => {
 
   return (
     <main className="Clubs hide-scrollbar-container">
-      <h2>Clubs</h2>
+      {/* <h2>Clubs</h2> */}
 
       <ul className="team-grid">
         {teams.map((t) => (

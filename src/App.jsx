@@ -1,4 +1,5 @@
 import Home from './MyComponents/Home';
+import Table from './MyComponents/Table';
 import Fixtures from './MyComponents/Fixtures';
 import Clubs from './MyComponents/Clubs';
 import PlayerProfile from './MyComponents/PlayerProfile';
@@ -15,6 +16,7 @@ function App() {
     <div className='App'>
       <Routes>
         <Route exact path="/" element={<Home />}/>
+        <Route path="/Table" element={<Table />}/>
         <Route exact path="/Fixtures" element={<Fixtures />}/>
         <Route exact path="/Clubs" element={<Clubs />}/>
         <Route path="/Clubs/:id" element={<Liverpool />}/>

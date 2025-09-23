@@ -50,7 +50,7 @@ export default function PlayerProfile() {
 
   return (
     <main className="PlayerProfile hide-scrollbar-container">
-      <h2 className="PlayerProfile-heading">Player Stats</h2>
+      <h2 className="PlayerProfile-heading">Here are some of the key players from their respective club.</h2>
 
       <ul className="player-grid">
         {players.map((p) => (
