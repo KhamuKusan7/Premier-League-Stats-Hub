@@ -141,12 +141,12 @@ body{
 } */
 
 .Table{
-  background-image: url('PLtrophy.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  background-position: center 31%;
-  background-repeat: no-repeat;
+  /* background-image: url('PLtrophy.jpg') transform;
+  background-size: cover; */
+  /* width: 100%;
+  height: 100vh; */
+  /* background-position: center 31%;
+  background-repeat: no-repeat; */
   /* z-index: -1; */
   color: #ffffff;
 }
