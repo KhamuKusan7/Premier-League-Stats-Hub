@@ -4,243 +4,243 @@
   "standings": [
     {
       "position": 1,
-      "team": "Liverpool",
-      "played": 5,
-      "wins": 5,
-      "draws": 0,
-      "losses": 0,
-      "goals_for": 11,
-      "goals_against": 5,
-      "goal_difference": 6,
-      "points": 15
+      "team": "Arsenal",
+      "played": 9,
+      "wins": 7,
+      "draws": 1,
+      "losses": 1,
+      "goals_for": 16,
+      "goals_against": 3,
+      "goal_difference": 13,
+      "points": 22
     },
     {
       "position": 2,
-      "team": "Arsenal",
-      "played": 5,
-      "wins": 3,
-      "draws": 1,
+      "team": "AFC Bournemouth",
+      "played": 9,
+      "wins": 5,
+      "draws": 3,
       "losses": 1,
-      "goals_for": 10,
-      "goals_against": 2,
-      "goal_difference": 8,
-      "points": 10
+      "goals_for": 16,
+      "goals_against": 11,
+      "goal_difference": 5,
+      "points": 18
     },
     {
       "position": 3,
       "team": "Tottenham Hotspur",
-      "played": 5,
-      "wins": 3,
-      "draws": 1,
-      "losses": 1,
-      "goals_for": 10,
-      "goals_against": 3,
-      "goal_difference": 7,
-      "points": 10
+      "played": 9,
+      "wins": 5,
+      "draws": 2,
+      "losses": 2,
+      "goals_for": 17,
+      "goals_against": 7,
+      "goal_difference": 10,
+      "points": 17
     },
     {
       "position": 4,
-      "team": "AFC Bournemouth",
-      "played": 5,
-      "wins": 3,
-      "draws": 1,
-      "losses": 1,
-      "goals_for": 6,
-      "goals_against": 5,
-      "goal_difference": 1,
-      "points": 10
+      "team": "Sunderland",
+      "played": 9,
+      "wins": 5,
+      "draws": 2,
+      "losses": 2,
+      "goals_for": 11,
+      "goals_against": 7,
+      "goal_difference": 4,
+      "points": 17
     },
     {
       "position": 5,
-      "team": "Crystal Palace",
-      "played": 5,
-      "wins": 2,
-      "draws": 3,
-      "losses": 0,
-      "goals_for": 6,
-      "goals_against": 2,
-      "goal_difference": 4,
-      "points": 9
+      "team": "Manchester City",
+      "played": 9,
+      "wins": 5,
+      "draws": 1,
+      "losses": 3,
+      "goals_for": 17,
+      "goals_against": 7,
+      "goal_difference": 10,
+      "points": 16
     },
     {
       "position": 6,
-      "team": "Chelsea",
-      "played": 5,
-      "wins": 2,
-      "draws": 2,
-      "losses": 1,
-      "goals_for": 10,
-      "goals_against": 5,
-      "goal_difference": 5,
-      "points": 8
+      "team": "Manchester United",
+      "played": 9,
+      "wins": 5,
+      "draws": 1,
+      "losses": 3,
+      "goals_for": 15,
+      "goals_against": 14,
+      "goal_difference": 1,
+      "points": 16
     },
     {
       "position": 7,
-      "team": "Sunderland",
-      "played": 5,
-      "wins": 2,
-      "draws": 2,
-      "losses": 1,
-      "goals_for": 6,
-      "goals_against": 4,
+      "team": "Liverpool",
+      "played": 9,
+      "wins": 5,
+      "draws": 0,
+      "losses": 4,
+      "goals_for": 16,
+      "goals_against": 14,
       "goal_difference": 2,
-      "points": 8
+      "points": 15
     },
     {
       "position": 8,
-      "team": "Fulham",
-      "played": 5,
-      "wins": 2,
-      "draws": 2,
-      "losses": 1,
-      "goals_for": 6,
-      "goals_against": 5,
+      "team": "Aston Villa",
+      "played": 9,
+      "wins": 4,
+      "draws": 3,
+      "losses": 2,
+      "goals_for": 9,
+      "goals_against": 8,
       "goal_difference": 1,
-      "points": 8
+      "points": 15
     },
     {
       "position": 9,
-      "team": "Manchester City",
-      "played": 5,
-      "wins": 2,
-      "draws": 1,
-      "losses": 2,
-      "goals_for": 9,
-      "goals_against": 5,
-      "goal_difference": 4,
-      "points": 7
+      "team": "Chelsea",
+      "played": 9,
+      "wins": 4,
+      "draws": 2,
+      "losses": 3,
+      "goals_for": 17,
+      "goals_against": 11,
+      "goal_difference": 6,
+      "points": 14
     },
     {
       "position": 10,
-      "team": "Everton",
-      "played": 5,
-      "wins": 2,
-      "draws": 1,
+      "team": "Crystal Palace",
+      "played": 9,
+      "wins": 3,
+      "draws": 4,
       "losses": 2,
-      "goals_for": 6,
-      "goals_against": 5,
-      "goal_difference": 1,
-      "points": 7
+      "goals_for": 12,
+      "goals_against": 9,
+      "goal_difference": 3,
+      "points": 13
     },
     {
       "position": 11,
-      "team": "Manchester United",
-      "played": 5,
-      "wins": 2,
+      "team": "Brentford",
+      "played": 9,
+      "wins": 4,
       "draws": 1,
-      "losses": 2,
-      "goals_for": 6,
-      "goals_against": 8,
-      "goal_difference": -2,
-      "points": 7
+      "losses": 4,
+      "goals_for": 14,
+      "goals_against": 14,
+      "goal_difference": 0,
+      "points": 13
     },
     {
       "position": 12,
-      "team": "Leeds United",
-      "played": 5,
-      "wins": 2,
-      "draws": 1,
-      "losses": 2,
-      "goals_for": 4,
-      "goals_against": 7,
-      "goal_difference": -3,
-      "points": 7
+      "team": "Newcastle United",
+      "played": 9,
+      "wins": 3,
+      "draws": 3,
+      "losses": 3,
+      "goals_for": 9,
+      "goals_against": 8,
+      "goal_difference": 1,
+      "points": 12
     },
     {
       "position": 13,
-      "team": "Newcastle United",
-      "played": 5,
-      "wins": 1,
+      "team": "Brighton",
+      "played": 9,
+      "wins": 3,
       "draws": 3,
-      "losses": 1,
-      "goals_for": 3,
-      "goals_against": 3,
-      "goal_difference": 0,
-      "points": 6
+      "losses": 3,
+      "goals_for": 14,
+      "goals_against": 15,
+      "goal_difference": -1,
+      "points": 12
     },
     {
       "position": 14,
-      "team": "Brighton",
-      "played": 5,
-      "wins": 1,
+      "team": "Everton",
+      "played": 9,
+      "wins": 3,
       "draws": 2,
-      "losses": 2,
-      "goals_for": 6,
-      "goals_against": 8,
-      "goal_difference": -2,
-      "points": 5
+      "losses": 4,
+      "goals_for": 9,
+      "goals_against": 12,
+      "goal_difference": -3,
+      "points": 11
     },
     {
       "position": 15,
-      "team": "Nottingham Forest",
-      "played": 5,
-      "wins": 1,
+      "team": "Leeds",
+      "played": 9,
+      "wins": 3,
       "draws": 2,
-      "losses": 2,
-      "goals_for": 5,
-      "goals_against": 9,
-      "goal_difference": -4,
-      "points": 5
+      "losses": 4,
+      "goals_for": 9,
+      "goals_against": 14,
+      "goal_difference": -5,
+      "points": 11
     },
     {
       "position": 16,
       "team": "Burnley",
-      "played": 5,
-      "wins": 1,
+      "played": 9,
+      "wins": 3,
       "draws": 1,
-      "losses": 3,
-      "goals_for": 5,
-      "goals_against": 8,
-      "goal_difference": -3,
-      "points": 4
+      "losses": 5,
+      "goals_for": 12,
+      "goals_against": 17,
+      "goal_difference": -5,
+      "points": 8
     },
     {
       "position": 17,
-      "team": "Brentford",
-      "played": 5,
-      "wins": 1,
-      "draws": 1,
-      "losses": 3,
-      "goals_for": 6,
-      "goals_against": 10,
-      "goal_difference": -4,
-      "points": 4
+      "team": "Fulham",
+      "played": 9,
+      "wins": 2,
+      "draws": 2,
+      "losses": 5,
+      "goals_for": 9,
+      "goals_against": 14,
+      "goal_difference": -5,
+      "points": 8
     },
     {
       "position": 18,
-      "team": "Aston Villa",
-      "played": 5,
-      "wins": 0,
-      "draws": 3,
-      "losses": 2,
-      "goals_for": 1,
-      "goals_against": 5,
-      "goal_difference": -4,
-      "points": 3
+      "team": "Nottingham Forest",
+      "played": 9,
+      "wins": 1,
+      "draws": 2,
+      "losses": 6,
+      "goals_for": 5,
+      "goals_against": 17,
+      "goal_difference": -12,
+      "points": 5
     },
     {
       "position": 19,
       "team": "West Ham",
-      "played": 5,
+      "played": 9,
       "wins": 1,
-      "draws": 0,
-      "losses": 4,
-      "goals_for": 5,
-      "goals_against": 13,
-      "goal_difference": -8,
-      "points": 3
+      "draws": 1,
+      "losses": 7,
+      "goals_for": 7,
+      "goals_against": 20,
+      "goal_difference": -13,
+      "points": 4
     },
     {
       "position": 20,
       "team": "Wolves",
-      "played": 5,
+      "played": 9,
       "wins": 0,
-      "draws": 0,
-      "losses": 5,
-      "goals_for": 3,
-      "goals_against": 12,
-      "goal_difference": -9,
-      "points": 0
+      "draws": 2,
+      "losses": 7,
+      "goals_for": 7,
+      "goals_against": 19,
+      "goal_difference": -12,
+      "points": 2
     }
   ],
   "top_scorers": [
@@ -248,135 +248,142 @@
       "rank": 1,
       "player": "Erling Haaland",
       "team": "Manchester City",
-      "played": 4,
-      "goals": 5
+      "played": 9,
+      "goals": 11
     },
     {
       "rank": 2,
-      "player": "Antoine Semenyo",
-      "team": "AFC Bournemouth",
-      "played": 4,
-      "goals": 3
+      "player": "Igor Thiago",
+      "team": "Brentford",
+      "played": 9,
+      "goals": 6
     },
     {
       "rank": 3,
-      "player": "Viktor Gyökeres",
-      "team": "Arsenal",
-      "played": 4,
-      "goals": 3
+      "player": "Antoine Semenyo",
+      "team": "AFC Bournemouth",
+      "played": 9,
+      "goals": 6
     },
     {
       "rank": 4,
-      "player": "Moisés Caicedo",
-      "team": "Chelsea",
-      "played": 4,
-      "goals": 2
+      "player": "Danny Welbeck",
+      "team": "Brighton",
+      "played": 9,
+      "goals": 5
     },
     {
       "rank": 5,
-      "player": "Martín Zubimendi",
-      "team": "Arsenal",
-      "played": 4,
-      "goals": 2
+      "player": "Jean-Philippe Mateta",
+      "team": "Crystal Palace",
+      "played": 9,
+      "goals": 5
     },
     {
       "rank": 6,
-      "player": "Mohamed Salah",
-      "team": "Liverpool",
-      "played": 4,
-      "goals": 2
+      "player": "Eli Kroupi",
+      "team": "AFC Bournemouth",
+      "played": 6,
+      "goals": 4
     },
     {
       "rank": 7,
-      "player": "Jaidon Anthony",
-      "team": "Burnley",
-      "played": 4,
-      "goals": 2
+      "player": "Nick Woltemade",
+      "team": "Newcastle United",
+      "played": 6,
+      "goals": 4
     },
     {
       "rank": 8,
-      "player": "Enzo Fernández",
-      "team": "Chelsea",
-      "played": 4,
-      "goals": 2
+      "player": "Bryan Mbeumo",
+      "team": "Manchester United",
+      "played": 9,
+      "goals": 4
     },
     {
       "rank": 9,
-      "player": "Igor Thiago",
-      "team": "Brentford",
-      "played": 4,
-      "goals": 2
+      "player": "Jaidon Anthony",
+      "team": "Burnley",
+      "played": 9,
+      "goals": 4
     },
     {
       "rank": 10,
-      "player": "Lucas Paquetá",
-      "team": "West Ham United",
-      "played": 4,
-      "goals": 2
-    },
-    {
-      "rank": 11,
-      "player": "Iliman Ndiaye",
-      "team": "Everton",
-      "played": 4,
-      "goals": 2
-    },
-    {
-      "rank": 12,
-      "player": "João Pedro",
-      "team": "Chelsea",
-      "played": 4,
-      "goals": 2
-    },
-    {
-      "rank": 13,
-      "player": "Hugo Ekitiké",
-      "team": "Liverpool",
-      "played": 4,
-      "goals": 2
-    },
-    {
-      "rank": 14,
-      "player": "Chris Wood",
-      "team": "Nottingham Forest",
-      "played": 4,
-      "goals": 2
+      "player": "Wilson Isidor",
+      "team": "Sunderland",
+      "played": 9,
+      "goals": 4
     }
   ],
   "assists": [
       {
         "rank": 1,
-        "player": "Jack Grealish",
-        "team": "Everton",
-        "played": 4,
+        "player": "Quilindschy Hartman",
+        "team": "Burnley",
+        "played": 9,
         "assists": 4
       },
       {
         "rank": 2,
-        "player": "João Pedro",
-        "team": "Chelsea",
-        "played": 4,
-        "assists": 3
+        "player": "Mohammed Kudus",
+        "team": "Tottenham Hotspur",
+        "played": 9,
+        "assists": 4
       },
       {
         "rank": 3,
-        "player": "El Hadji Malick Diouf",
-        "team": "West Ham United",
-        "played": 4,
-        "assists": 2
+        "player": "Jack Grealish",
+        "team": "Everton",
+        "played": 9,
+        "assists": 4
       },
       {
         "rank": 4,
-        "player": "Antoine Semenyo",
-        "team": "AFC Bournemouth",
-        "played": 4,
-        "assists": 2
+        "player": "Granit Xhaka",
+        "team": "Sunderland",
+        "played": 9,
+        "assists": 3
       },
       {
         "rank": 5,
-        "player": "Cody Gakpo",
-        "team": "Liverpool",
-        "played": 4,
+        "player": "El Hadji Malick Diouf",
+        "team": "West Ham",
+        "played": 9,
+        "assists": 3
+      },
+      {
+        "rank": 6,
+        "player":"João Pedro",
+        "team": "Chelsea",
+        "played": 9,
+        "assists": 3
+      },
+      {
+        "rank": 7,
+        "player": "Antoine Semenyo",
+        "team":"AFC Bournemouth",
+        "played": 9,
+        "assists": 3
+      },
+      {
+        "rank": 8,
+        "player": "Jérémy Doku",
+        "team": "Manchester City",
+        "played": 9,
+        "assists": 3
+      },
+      {
+        "rank": 9,
+        "player": "Yankuba Minteh",
+        "team": "Brighton",
+        "played": 9,
+        "assists": 2
+      },
+      {
+        "rank": 10,
+        "player": "Jordan Henderson",
+        "team": "Brentford",
+        "played": 9,
         "assists": 2
       }
     ],
@@ -385,35 +392,70 @@
         "rank": 1,
         "player": "David Raya",
         "team": "Arsenal",
-        "played": 4,
-        "clean_sheets": 3
+        "played": 9,
+        "clean_sheets": 6
       },
       {
         "rank": 2,
-        "player": "Dean Henderson",
-        "team": "Crystal Palace",
-        "played": 4,
-        "clean_sheets": 3
+        "player": "Nick Pope",
+        "team": "Newcastle United",
+        "played": 9,
+        "clean_sheets": 5
       },
       {
         "rank": 3,
-        "player": "Nick Pope",
-        "team": "Newcastle United",
-        "played": 4,
-        "clean_sheets": 3
+        "player": "Robin Roefs",
+        "team": "Sunderland",
+        "played": 9,
+        "clean_sheets": 4
       },
       {
         "rank": 4,
-        "player": "Guglielmo Vicario",
-        "team": "Tottenham Hotspur",
-        "played": 4,
-        "clean_sheets": 3
+        "player": "Djordje Petrovic",
+        "team": "AFC Bournemouth",
+        "played": 9,
+        "clean_sheets": 4
       },
       {
         "rank": 5,
-        "player": "Alisson Becker",
-        "team": "Liverpool",
-        "played": 4,
+        "player": "Guglielmo Vicario",
+        "team": "Tottenham Hotspur",
+        "played": 9,
+        "clean_sheets": 4
+      },
+      {
+        "rank": 6,
+        "player": "Robert Sánchez",
+        "team": "Chelsea",
+        "played": 9,
+        "clean_sheets": 3
+      },
+      {
+        "rank": 7,
+        "player": "Gianluigi Donnarumma",
+        "team": "Manchester City",
+        "played": 6,
+        "clean_sheets": 3
+      },
+      {
+        "rank": 8,
+        "player": "Dean Henderson",
+        "team": "Crystal Palace",
+        "played": 9,
+        "clean_sheets": 3
+      },
+      {
+        "rank": 9,
+        "player": "Emiliano Martínez",
+        "team": "Aston Villa",
+        "played": 7,
+        "clean_sheets": 2
+      },
+      {
+        "rank": 10,
+        "player": "Martin Dúbravka",
+        "team": "Burnley",
+        "played": 9,
         "clean_sheets": 2
       }
     ]
