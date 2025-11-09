@@ -9,7 +9,7 @@ const NavBar = ({title}) => {
           <li><Link to="/PlayerProfile">Player Profile</Link></li>
           <li><Link to="/Clubs">Clubs</Link></li>
           <li><Link to="/Fixtures">Fixture Difficulty</Link></li>
-          <li><Link to="/Hall_of_Fame">Hall of Fames</Link></li>
+          <li><Link to="/Hall_of_Fame">Hall of Fame</Link></li>
         </ul>
 
     </header>
