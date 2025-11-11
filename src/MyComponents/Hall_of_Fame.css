@@ -21,9 +21,9 @@
 }
 
 /* Alternate layout for every second profile (image on right) */
-.Profile:nth-child(odd) {
+/* .Profile:nth-child(odd) {
   flex-direction: row-reverse;
-}
+} */
 
 /* Common image style */
 .Hazard,
@@ -38,7 +38,7 @@
 
 /* Specific images */
 .Hazard {
-  background-image: url("/images/HoF/Hazard.webp");
+  background-image: url("/images/HoF/Hazard2.webp");
 }
 
 .Henry {
@@ -50,7 +50,7 @@
 }
 
 .Neville {
-    background-image: url("/images/HoF/Neville.webp");
+    background-image: url("/images/HoF/Neville2.webp");
 }
 
 .Shearer {
