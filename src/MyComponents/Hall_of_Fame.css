@@ -27,7 +27,7 @@
 
 /* Common image style */
 .Hazard,
-.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard{
+.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright{
   flex: 1 1 50%;
   height: 400px;
   background-size: cover;
@@ -64,6 +64,30 @@
 .Lampard {
     background-image: url("/images/HoF/Lampard.webp");
 }
+
+.Drogba {
+    background-image: url("/images/HoF/Drogba.webp");
+}
+
+.Kompany {
+  background-image: url("/images/HoF/Kompany.webp");
+}
+
+.Wright {
+  background-image: url("/images/HoF/Wright.webp");
+}
+
+.Beckham {
+    background-image: url("/images/HoF/Beckham2.webp");
+}
+
+.Cantona {
+    background-image: url("/images/HoF/Cantona.webp");
+}
+
+.Bergkamp {
+    background-image: url("/images/HoF/Bergkamp.webp");
+}
 /* Summary styling */
 .summary {
   flex: 1 1 50%;
@@ -89,7 +113,7 @@
   font-weight: 400;
   /* font-size: 1.2rem;
   line-height: 1.8rem; */
-  font-size: 1.06rem;
+  font-size: 1.2rem;
   line-height: 1.4rem;
 }
 
@@ -100,7 +124,7 @@
   }
 
   .Hazard,
-  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard{
+  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany{
     flex: none;
     width: 100%;
     height: 300px;

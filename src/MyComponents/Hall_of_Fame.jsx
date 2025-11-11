@@ -77,10 +77,10 @@ const Hall_of_Fame = () => {
         <div className="summary">
           <div className="title">Steven Gerrard</div>
           <div className="description"><p><b>The local lad who conquered the world.</b></p>
-          <p>After coming through Liverpool’s Academy, Steven Gerrard spent 17 years as the driving force of the Merseysiders’ midfield in the Premier League.</p>
+          <p>After coming through Liverpool's Academy, Steven Gerrard spent 17 years as the driving force of the Merseysiders' midfield in the Premier League.</p>
           <p>Famed for his driving runs, his ability to inspire team-mates and his spectacular strikes from distance</p>
           <p>Gerrard scored 120 goals from midfield, only behind Frank Lampard.</p>
-          <p>The Reds’s long-serving captain also provided 92 top-flight assists and won six monthly awards in his stellar career.</p>
+          <p>The Reds's long-serving captain also provided 92 top-flight assists and won six monthly awards in his stellar career.</p>
           </div>
         </div>
       </section>
@@ -90,14 +90,51 @@ const Hall_of_Fame = () => {
         <div className="summary">
           <div className="title">Frank Lampard</div>
           <div className="description"><p><b>The complete midfielder, whose records remain unmatched</b></p>
-          <p>Over the course of 21 seasons in the Premier League, Frank Lampard was one of the competition’s most complete midfielders.</p>
+          <p>Over the course of 21 seasons in the Premier League, Frank Lampard was one of the competition's most complete midfielders.</p>
           <p>A champion on three occasions at Chelsea, no midfielder has ever got near to his 177 goals for the Blues, West Ham and Man City.</p> 
-          <p>No player has matched his getting double figures for goals in 10 consecutive seasons as he became Chelsea’s all-time leading scorer.</p>
+          <p>No player has matched his getting double figures for goals in 10 consecutive seasons as he became Chelsea's all-time leading scorer.</p>
           <p>Named Player of the Season for 2004/05, he also surpassed a century of assists in the Premier League.</p>
           </div>
         </div>
       </section>
 
+      <section className="Profile">
+        <div className="Drogba"></div>
+        <div className="summary">
+          <div className="title">Didier Drogba</div>
+          <div className="description">
+            <p>Blessed with <b>pace, power and skill</b>, Didier Drogba scored 104 Premier League goals, which is the msot by an African,  many struck spectacularly from distance or powered in with his head.</p>
+            <p>The Ivorian won the Premier League trophy four times with  Chelsea, where he claimed two Golden Boots.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="Profile">
+        <div className="Kompany"></div>
+        <div className="summary">
+          <div className="title">Vincent Kompany</div>
+          <div className="description">
+            <p>Man City's <b>Captain Fantastic</b>.</p>
+            <p>Kompany won the Premier League trophy four times in his eleven years spell at Manchester City.</p>
+            <p>The Belgian made 265 PL appearances, keeping 94 clean sheets in total.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="Profile">
+        <div className="Wright"></div>
+        <div className="summary">
+          <div className="title">Ian Wright</div>
+          <div className="description">
+            <p>From late starter to <b>record breaker</b>.</p>
+            <p>One of the <b>greatest goalscorers</b> that Premier League has ever seen.</p>
+            <p>Give him half a chance and he'll say thanks a lot.</p>
+            <p>After joining Arsenal from Crystal Palace, Wright was the Arsenal's leading scorer in the club's first five seasons in the Premier League.</p>
+            <p>Had the knack of being in the right place at the right time.</p> 
+            <p>Wright was crucial in helping Arsenal to the 1997/98 title, where he also beat Cliff Bastin's club record of 178 goals.</p>
+          </div>
+        </div>
+      </section>
 
     </div>
   );
