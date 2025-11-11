@@ -136,6 +136,31 @@ const Hall_of_Fame = () => {
         </div>
       </section>
 
+      <section className="Profile">
+        <div className="Cole"></div>
+        <div className="summary">
+          <div className="title">Ashley Cole</div>
+          <div className="description">
+            <p>One of the <b>finest left-backs</b> to grace the Premier League.</p>
+            <p>Ashley Cole defined the evolution of full-backs, from defending to becoming an integral part of the attack.</p>
+            <p>After being part of Arsenal's 2001/02 and including famous 2003/04 <b>"The Invincibles"</b> title-winning teams, Cole moved to Chelsea in 2006 and went on to lift the Premier League Trophy in 2009/10.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="Profile">
+        <div className="AndrewCole"></div>
+        <div className="summary">
+          <div className="title">Andrew Cole</div>
+          <div className="description">
+            <p>One of the <b>greatest goalscorers</b> ever seen.</p>
+            <p>Cole netted 187 times with five Premier League title wins, a Golden Boot and a famous Treble with Manchester United.</p>
+            <p>Remarkably, only one of his goals came from the penalty spot.</p>
+            <p>His 34 goals for Newcastle United in 1993/94 remains the second-most by an player in a season.</p>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 };
