@@ -27,7 +27,7 @@
 
 /* Common image style */
 .Hazard,
-.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright{
+.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright, .Cole, .AndrewCole{
   flex: 1 1 50%;
   height: 400px;
   background-size: cover;
@@ -77,6 +77,14 @@
   background-image: url("/images/HoF/Wright.webp");
 }
 
+.Cole {
+  background-image: url("/images/HoF/AshleyCole.webp");
+}
+
+.AndrewCole {
+  background-image: url("/images/HoF/AndrewCole.webp");
+}
+
 .Beckham {
     background-image: url("/images/HoF/Beckham2.webp");
 }
@@ -124,7 +132,7 @@
   }
 
   .Hazard,
-  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany{
+  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Cole, .AndrewCole{
     flex: none;
     width: 100%;
     height: 300px;
