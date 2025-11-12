@@ -1,9 +1,10 @@
 .Hall_of_Fame {
-  background-color: #000;
+  /* background-color: #464036; */
+  background-color: #35322c;
   padding: 4rem 0;
 }
 .HOF{
-    color: white;
+    color: #a18d6f;
     display: flex;
     justify-content: center;
     font-weight: 800;
@@ -27,7 +28,7 @@
 
 /* Common image style */
 .Hazard,
-.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright, .Cole, .AndrewCole{
+.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright, .Cole, .AndrewCole,.JohnTerry, .Beckham{
   flex: 1 1 50%;
   height: 400px;
   background-size: cover;
@@ -85,8 +86,12 @@
   background-image: url("/images/HoF/AndrewCole.webp");
 }
 
+.JohnTerry {
+  background-image: url("/images/HoF/JohnTerry.webp");
+}
+
 .Beckham {
-    background-image: url("/images/HoF/Beckham2.webp");
+    background-image: url("/images/HoF/Beckham.webp");
 }
 
 .Cantona {
@@ -132,7 +137,7 @@
   }
 
   .Hazard,
-  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Cole, .AndrewCole{
+  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright, .Cole, .AndrewCole, .JohnTerry, .Beckham{
     flex: none;
     width: 100%;
     height: 300px;
