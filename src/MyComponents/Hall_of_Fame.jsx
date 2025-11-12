@@ -161,6 +161,32 @@ const Hall_of_Fame = () => {
         </div>
       </section>
 
+      <section className="Profile">
+        <div className="JohnTerry"></div>
+        <div className="summary">
+          <div className="title">John Terry</div>
+          <div className="description">
+            <p><b>Captain, leader, legend.</b></p>
+            <p>John Terry considered as the best defender in Chelsea history, captained the Blues to five titles, the most by any player as a captain in the Premier League era.</p>
+            <p>Till this day, Terry remains the only player to feature in all five of Chelsea's title-winning seasons</p>
+            <p>Scoring 41 goals are the most by any defender in the competition's history.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="Profile">
+        <div className="Beckham"></div>
+        <div className="summary">
+          <div className="title">David Beckham</div>
+          <div className="description">
+            <p><b>The dead-ball specialist</b></p>
+            <p>David Beckham tormented opponents with whipped, curling crosses that were impossible to defend and easy for team-mates to score.</p>
+            <p>His right foot set the Premier League alight on the opening weekend of 1996/97, when he scored for Manchester United from the halfway line at Wimbledon.</p>
+            <p>Beckham won six PL titles with United in his 265 appearances.</p>
+            <p>His 18 Premier League goals from free-kick is still a record in the competition which no player has threatened.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
