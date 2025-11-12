@@ -187,6 +187,19 @@ const Hall_of_Fame = () => {
           </div>
         </div>
       </section>
+
+      <section className="Profile">
+        <div className="Bergkamp"></div>
+        <div className="summary">
+          <div className="title">Dennis Bergkamp</div>
+          <div className="description">
+            <p><b>Vision, technique, power - an extraordinary forward who reshaped the game.</b></p>
+            <p>Dennis Bergkamp, one of the first foreign player to play in the Premier League, arrived in 1995 and displayed a new level of skill that inspired Arsenal to three PL titles and opened the competition's borders to more international stars.</p>
+            <p>The Dutchman was graceful with the ball at his feet and his control was simply marvellous, one of the best.</p>
+            <p>Apart from providing gilt-edged chances for team-mates, Bergkamp scored some spectacular goals, including the strike against Newcastle United which was voted by fans as the best goal in the Premier League's first 25 years.</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
