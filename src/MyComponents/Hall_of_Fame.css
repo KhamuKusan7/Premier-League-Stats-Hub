@@ -3,12 +3,12 @@
   background-color: #35322c;
   padding: 4rem 0;
 }
-.HOF{
-    color: #a18d6f;
-    display: flex;
-    justify-content: center;
-    font-weight: 800;
-    font-size: 2rem;
+.HOF {
+  color: #a18d6f;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 2rem;
 }
 /* Profile container */
 .Profile {
@@ -28,7 +28,22 @@
 
 /* Common image style */
 .Hazard,
-.Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright, .Cole, .AndrewCole,.JohnTerry, .Beckham, .Bergkamp{
+.Henry,
+.Aguero,
+.Neville,
+.Shearer,
+.Gerrard,
+.Lampard,
+.Drogba,
+.Kompany,
+.Wright,
+.Cole,
+.AndrewCole,
+.JohnTerry,
+.Beckham,
+.Bergkamp,
+.Cantona,
+.Keane {
   flex: 1 1 50%;
   height: 400px;
   background-size: cover;
@@ -47,27 +62,27 @@
 }
 
 .Aguero {
-    background-image: url("/images/HoF/Aguero.webp");
+  background-image: url("/images/HoF/Aguero.webp");
 }
 
 .Neville {
-    background-image: url("/images/HoF/Neville2.webp");
+  background-image: url("/images/HoF/Neville2.webp");
 }
 
 .Shearer {
-    background-image: url("/images/HoF/Shearer.webp");
+  background-image: url("/images/HoF/Shearer.webp");
 }
 
 .Gerrard {
-    background-image: url("/images/HoF/Gerrard.webp");
+  background-image: url("/images/HoF/Gerrard.webp");
 }
 
 .Lampard {
-    background-image: url("/images/HoF/Lampard.webp");
+  background-image: url("/images/HoF/Lampard.webp");
 }
 
 .Drogba {
-    background-image: url("/images/HoF/Drogba.webp");
+  background-image: url("/images/HoF/Drogba.webp");
 }
 
 .Kompany {
@@ -91,14 +106,17 @@
 }
 
 .Beckham {
-    background-image: url("/images/HoF/Beckham.webp");
+  background-image: url("/images/HoF/Beckham.webp");
 }
 
 .Bergkamp {
-    background-image: url("/images/HoF/Bergkamp.webp");
+  background-image: url("/images/HoF/Bergkamp.webp");
 }
 .Cantona {
-    background-image: url("/images/HoF/Cantona.webp");
+  background-image: url("/images/HoF/Cantona.webp");
+}
+.Keane {
+  background-image: url("/images/HoF/RoyKeane.webp");
 }
 
 /* Summary styling */
@@ -137,7 +155,22 @@
   }
 
   .Hazard,
-  .Henry, .Aguero, .Neville, .Shearer, .Gerrard, .Lampard, .Drogba, .Kompany, .Wright, .Cole, .AndrewCole, .JohnTerry, .Beckham, .Bergkamp{
+  .Henry,
+  .Aguero,
+  .Neville,
+  .Shearer,
+  .Gerrard,
+  .Lampard,
+  .Drogba,
+  .Kompany,
+  .Wright,
+  .Cole,
+  .AndrewCole,
+  .JohnTerry,
+  .Beckham,
+  .Bergkamp,
+  .Cantona,
+  .Keane {
     flex: none;
     width: 100%;
     height: 300px;
