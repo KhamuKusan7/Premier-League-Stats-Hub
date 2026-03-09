@@ -235,15 +235,27 @@ body{
 }
 
 /* Card */
-.player-card {
+/* .player-card {
   position: relative;
   border-radius: 14px;
   overflow: hidden;
-  aspect-ratio: 2 / 3;         /* keeps a nice poster shape */
-  -webkit-font-smoothing:antialiased;
+  aspect-ratio: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+} */
+ .player-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* pushes content (player + name) to bottom */
+  align-items: center;
 }
 
-/* Background goes here via CSS var */
+ /* Background image (club) */
 .player-card::before {
   content: "";
   position: absolute;
@@ -252,8 +264,9 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 1;                   /* sits behind the player */
+  z-index: 1;
 }
+
 .player-card:hover {
   /* transform: scale(1.08); */
   box-shadow: 0 12px 24px rgba(0,0,0,0.35);
@@ -262,7 +275,7 @@ body{
 
 
 /* Clickable area */
-.card-link {
+/* .card-link {
   position: absolute;
   inset: 0;
   display: flex;
@@ -271,33 +284,56 @@ body{
   align-items: center;
   text-decoration: none;
   z-index: 2;
+} */
+
+.card-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  z-index: 2;
 }
 
+
 /* Player image */
-.player-img {
+/* .player-img {
   position: absolute;
   height: 85%;
   object-fit: contain;
   display: block;
   margin: 0 auto;
+  bottom: 0;
   transition: transform 0.3s ease, filter 0.3s ease;
-  transform-origin: bottom center; /* grow upward from feet */
+  transform-origin: bottom center; grow upward from feet
+} */
+
+.player-img {
+  width: 100%;
+  height: auto;
+  max-height: 85%;
+  object-fit: contain;
+  align-self: center;
+  position: relative;
+  z-index: 2;
+  transform: translateY(10%); /* gently pulls player down to touch bottom */
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.player-card:hover .player-img {
-  transform: scale(1.12);
-  /* flex-grow: 1; */
+ .player-card:hover .player-img {
+  transform: translateY(8%) scale(1.08);
   filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));
 }
 
-
-/* Name label */
+/* Player name */
 .player-name {
   position: relative;
-  margin: 10px 0;
-  font-weight: 700;
   color: #fff;
-  text-shadow: 0 2px 6px rgba(0,0,0,.6);
+  font-weight: 700;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  margin-bottom: 10px;
   z-index: 3;
 }
 .player-card:hover .player-name {

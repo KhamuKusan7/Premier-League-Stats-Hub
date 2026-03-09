@@ -1,136 +1,168 @@
-/* .bg_img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    background-size: 100% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-} */
-
-
-
-/* .back_num {   
-  font-family:Arial, Helvetica, sans-serif;
-  position: absolute;
-  font-size: 30rem;        
-  font-weight: bold;
-  color: transparent;     
-  -webkit-text-stroke: 8px #00bfff; 
-  z-index: -1;             
-  user-select: none;       
-  opacity: 0.6;            
+.haaland-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color:#380F4C;
+  color: white;
 }
-.number {
-    position: absolute;
-}
-.Player_info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 60px 20px;
-  overflow-y: scroll;
-} */
 
-
-.player-info {
+/* ---------------- LEFT SECTION ---------------- */
+.player-left {
+  flex: 1;
   position: relative;
+  padding: 2rem;
+  min-width: 350px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* padding: 60px 40px; */
-  min-height: 100vh;
-  background-color: #00bfff;
-  width: 100%;
-  overflow-y: hidden;
+  justify-content: flex-start;
 }
 
-/* Big background number */
-.back-num {
+/* .back-num {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30rem;
-  font-weight: bold;
-  color: transparent;
-  -webkit-text-stroke: 15px #ffffff;
-  opacity: 0.5;
-  font-family:Arial, Helvetica, sans-serif;
-  pointer-events: none;
+  font-size: 25rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.12);
+  top: 10%;
+  left: 10%;
+  z-index: 1;
+} */
+
+.jersey-num {
+  font-size: 1.5rem;
+}
+
+.player-text {
+  position: relative;
+  z-index: 2;
+}
+
+.player-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.player-role {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.player-img {
+  position: relative;
+  z-index: 2;
+  width: 16rem;
+  margin-top: 1.5rem;
+}
+
+.player-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* Info Box */
+.player-box {
+  margin-top: 1.5rem;
+  background-color: #380F4C;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  border-radius: 8px;
+}
+
+.player-box p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* ---------------- RIGHT SECTION ---------------- */
+.player-stats {
+  flex: 2;
+  background-color: #380f4c3c;
+  position: relative;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+/* Faint Club Logo */
+.club-logo {
+  background: url("/images/Clubs/Mancity.png") center/contain no-repeat;
+  opacity: 1;
+  position: absolute;
+  inset: 0;
   z-index: 0;
+  background-size: 25%;
+  /* max-width: 100%;
+  height: auto; */
+  margin-top: 6rem;
 }
 
-/* Player image */
-.player-image img {
-  width: 100%;
-  max-width: 350px;
-  margin-bottom: 40px;
+/* Stats header */
+.stats-header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  z-index: 2;
   position: relative;
-  z-index: 1;
 }
 
-/* Details 3-column layout */
-/* .player-details {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
-  width: 100%;
-  max-width: 1100px;
-  z-index: 1;
-  color: #000;
-  font-size: 1rem;
-  line-height: 1.6;
-} */
-
-.player-details {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
-  width: 100%;
-  max-width: 1100px;
-  z-index: 1;
-  color: #000;
-  font-size: 1rem;
-  line-height: 1.6;
-  align-items: start;   /* ensures all start at the top */
-}
-
-
-/* Column styling */
-/* .left-col,
-.center-col,
-.right-col {
-  max-width: 100%;
-  max-height: 100%;
-} */
-.center-col {
-  padding: 20px;
-  border-left: 2px solid #eee; /* optional styling */
-}
-.right-col {
-  /* padding: 20px; */
-  /* max-height: 400px; */
-  /* overflow-y: auto; */
-  /* border-left: 2px solid #eee; */
-  position: relative;
-  margin-top: -200px;
-  margin-left: 150px;
-}
-
-/* .player-details h3 {
-  margin-top: 20px;
+.stats-header div h3 {
   font-size: 1.2rem;
-  font-weight: bold;
-  color: #222;
-} */
+  opacity: 0.8;
+}
 
-/* Responsive (stack on small screens) */
+.stats-header div p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Stats Body */
+.stats-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.stats-body h4 {
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stats-body p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
 @media (max-width: 900px) {
-  .player-details {
-    grid-template-columns: 1fr;
+  .haaland-container {
+    flex-direction: column;
+  }
+
+  .back-num {
+    font-size: 9rem;
+    top: 30%;
+    left: 5%;
+  }
+
+  .player-left {
+    align-items: center;
     text-align: center;
   }
-}
 
+  .player-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .player-stats {
+    padding: 1.5rem;
+  }
+
+  .stats-body {
+    grid-template-columns: 1fr;
+  }
+}
